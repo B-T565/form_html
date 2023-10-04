@@ -265,24 +265,37 @@
     .head{
         width: 100%;
         display: block;
+        margin-top: 10px;
+        margin-left: 55px;
     }
     .head .head_left{
-        width: 60%;
-        height: 250px;
+        width: 30%;
+        height: 150px;
         margin: auto;
         margin-top: 20px;
+        margin-left: 25px;
+        display: inline-block;
     }
     .head .head_left1{
-        width: 60%;
-        height: 250px;
+        width: 30%;
+        height: 150px;
         margin: auto;
         margin-top: 25px;
+        margin-left: 25px;
+        display: inline-block;
     }
     .head .head_right{
-        width: 60%;
-        height: 250px;
+        width: 30%;
+        height: 150px;
         margin: auto;
         margin-top: 25px;
+        margin-left: 25px;
+        display: inline-block;
+    }
+    .head .head_left p, 
+    .head_left1 p, 
+    .head_right p{
+        font-size: 11px;
     }
 }
 
