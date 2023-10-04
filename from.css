@@ -6,6 +6,7 @@
 }
 body{
     background-color: #F5FFFA;
+    overflow-x: hidden;
 }
 @font-face{
     font-family: "Kantumruy";
