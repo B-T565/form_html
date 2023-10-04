@@ -1,0 +1,485 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kantumruy";
+}
+body{
+    background-color: #F5FFFA;
+}
+@font-face{
+    font-family: "Kantumruy";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("https://natt.realteethclinic.com/assets/font/Kantumruy-Regular.ttf") format('woff2');
+    unicode-range: U+1780-17FF, U+200C, U+25CC;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    /* background-color: wheat; */
+    margin: auto;
+    margin-top: 50px;
+    /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.521); */
+    border-radius: 20px;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 100px;
+}
+
+.txt p{
+    text-align: center;
+    color: #000;
+}
+.txt .txt_1{
+    color: #006400;
+}
+
+.from-contact {
+    width: 350px;
+    height: 30px;
+    /* background-color: #00eb957a; */
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+}
+
+.from-contact .box_user {
+    width: 50px;
+    height: 100%;
+    /* background-color: dodgerblue; */
+    border: 1px solid #006400;
+    color: white;
+}
+
+.box_user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 5px 0 0 5px;
+}
+.box_user i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #006400;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+}
+.input-field{
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #006400;
+    color: #006400;
+    font-size: 13px;
+}
+
+.forget {
+    width: 350px;
+    height: 35px;
+    /* background-color: grey; */
+    margin: auto;
+    margin-top: 10px;
+}
+
+.forget .remember {
+    width: 50%;
+    font-size: 14px;
+    float: left;
+    color: #006400;
+    /* background-color: brown; */
+}
+
+.forget .forget_password {
+    width: 55%;
+    font-size: 14px;
+    float: right;
+    margin-top: -25px;
+}
+.forget .forget_password a{
+    margin-left: 95px;
+    color: #006400;
+    text-decoration: none;
+}
+
+.forget .forget_password:hover {
+    opacity: 0.7;
+}
+
+.box .btn button {
+    width: 350px;
+    background-color: #006400;
+    color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn button:hover {
+    opacity: 0.8;
+}
+
+.box .icon_logo {
+    width: 100px;
+    height: 30px;
+    /* background-color: wheat; */
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    display: flex;
+}
+
+.icon_logo .kh, .us {
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.icon_logo .kh img{
+    width: 25px;
+    height: 25px;
+    margin-left: 18px;
+}
+
+.icon_logo .kh img:hover,
+.us img:hover {
+    opacity: 0.8;
+}
+
+.icon_logo .us img {
+    width: 25px;
+    height: 25px;
+    margin-right: 18px;
+}
+
+/* CSS Forget_Password */
+.box .txt p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.txt_1 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    color: #006400;
+}
+
+.input-field:focus {
+    border: 2px solid #006400;
+}
+
+.box .btn1{
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+
+.btn1 button {
+    width: 100%;
+    background-color: #006400;
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #04AA6D;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.btn1 button:hover {
+    opacity: 1;
+}
+
+.txt_right a {
+    text-decoration: none;
+    color: #006400;
+    font-size: 13px;
+    opacity: 1;
+}
+
+.txt_right {
+    width: 200px;
+    position: absolute;
+    top: 56%;
+    right: 15%;
+}
+.txt_right p{
+    margin-left: 60px;
+}
+
+.txt_right:hover {
+    opacity: 0.9;
+}
+
+
+.from-contact .box_user1 {
+    width: 350px;
+    height: 100%;
+    background-color: #00eb958f;
+    border: 1px solid #006400;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.box_user1 p {
+    font-size: 15px;
+    color: #006400;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+/* Responsive Screen */
+@media screen (max-width: 400px) and (min-width: 600px) {
+    .box {
+        width: 80%;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .txt h4,
+    p {
+        font-size: 14px;
+    }
+
+    .from-contact {
+        width: 300px;
+    }
+
+    .from-contact i {
+        font-size: 15px;
+    }
+
+    .box .forget .remember {
+        margin-left: 25px;
+        font-size: 13px;
+    }
+
+    .box .forget .forget_password{
+        margin-top: -20px;
+        font-size: 13px;
+    }
+
+    .box .btn button {
+        width: 300px;
+        padding: 5px 10px;
+        font-size: 15px;
+        margin-top: -1px;
+    }
+
+    .icon_logo .kh img{
+        margin-left: -1px;
+    }
+    .icon_logo .us img{
+        margin-left: -15px;
+    }
+
+    .box .btn1 button {
+        width: 300px;
+        margin-left: -25px;
+        font-size: 13px
+    }
+
+    .box .txt_right {
+        width: 250px;
+        margin-top: -5px;
+        position: absolute;
+        right: 13%;
+    }
+
+    .box .txt_right p{
+        margin-left: 112px;
+    }
+
+    .box .from-contact .box_user1 p{
+        font-size: 14px;
+        margin-top: 7px;
+        margin-left: 2px;
+    }
+    .box .icon_logo img{
+        padding: 1px;
+    }
+}
+
+@media screen (min-width: 600px) and (max-width: 800px) {
+    .box {
+        width: 80%;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .txt h4,
+    p {
+        font-size: 14px;
+    }
+
+    .from-contact {
+        width: 300px;
+    }
+
+    .from-contact i {
+        font-size: 15px;
+    }
+
+    .box .forget .remember {
+        margin-left: 25px;
+        font-size: 13px;
+    }
+
+    .box .forget .forget_password {
+        margin-top: -20px;
+        font-size: 13px;
+    }
+
+    .box .btn button {
+        width: 300px;
+        padding: 5px 10px;
+        font-size: 15px;
+        margin-top: -1px;
+    }
+
+    .icon_logo .kh img {
+        margin-left: -1px;
+    }
+
+    .icon_logo .us img {
+        margin-left: -15px;
+    }
+
+    .box .btn1 button {
+        width: 300px;
+        margin-left: -25px;
+        font-size: 13px
+    }
+
+    .box .txt_right {
+        width: 250px;
+        margin-top: -5px;
+        position: absolute;
+        right: 13%;
+    }
+
+    .box .txt_right p {
+        margin-left: 112px;
+    }
+
+    .box .from-contact .box_user1 p {
+        font-size: 14px;
+        margin-top: 7px;
+        margin-left: 2px;
+    }
+
+    .box .icon_logo img {
+        padding: 1px;
+    }
+}
+
+@media screen (min-width: 800px) and (max-width: 1200px) {
+    .box {
+        width: 80%;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .txt h4,
+    p {
+        font-size: 14px;
+    }
+
+    .from-contact {
+        width: 300px;
+    }
+
+    .from-contact i {
+        font-size: 15px;
+    }
+
+    .box .forget .remember {
+        margin-left: 25px;
+        font-size: 13px;
+    }
+
+    .box .forget .forget_password {
+        margin-top: -20px;
+        font-size: 13px;
+    }
+
+    .box .btn button {
+        width: 300px;
+        padding: 5px 10px;
+        font-size: 15px;
+        margin-top: -1px;
+    }
+
+    .icon_logo .kh img {
+        margin-left: -1px;
+    }
+
+    .icon_logo .us img {
+        margin-left: -15px;
+    }
+
+    .box .btn1 button {
+        width: 300px;
+        margin-left: -25px;
+        font-size: 13px
+    }
+
+    .box .txt_right {
+        width: 250px;
+        margin-top: -5px;
+        position: absolute;
+        right: 13%;
+    }
+
+    .box .txt_right p {
+        margin-left: 112px;
+    }
+
+    .box .from-contact .box_user1 p {
+        font-size: 14px;
+        margin-top: 7px;
+        margin-left: 2px;
+    }
+
+    .box .icon_logo img {
+        padding: 1px;
+    }
+}
